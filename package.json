@@ -1,0 +1,26 @@
+{
+  "name": "dev-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirasanthan-jesugeevegan/dev-slack-bot.git"
+  },
+  "keywords": [],
+  "author": "Pirasanthan Jesugeevegan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pirasanthan-jesugeevegan/dev-slack-bot/issues"
+  },
+  "homepage": "https://github.com/pirasanthan-jesugeevegan/dev-slack-bot#readme",
+  "dependencies": {
+    "@slack/rtm-api": "^6.1.0",
+    "@slack/web-api": "^6.8.1",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25"
+  }
+}
