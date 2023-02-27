@@ -23,4 +23,6 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v1
 
       - name: Build and push the tagged docker image to Amazon ECR
-        run: scripts/build-push.sh
+        run: |
+          chmod +x scripts/build-push.sh
+          scripts/build-push.sh
