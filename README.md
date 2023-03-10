@@ -15,6 +15,8 @@ This is an example of how to create a simiple Slack bot with Slack API. Additona
 1. rename `.env.example` file to `.env`
 2. Create a classic app - https://api.slack.com/apps?new_classic_app=1
 3. Once app is created, Retrive the OAUTH token and add it to `.env` file
+4. Create a Github token -> settings -> developer settings -> personal access tokens
+5. Add your github token, username and respo name to env variable
 
 ## Install
 
